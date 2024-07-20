@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px;
+}
+
+#tree-map {
+    width: 100%;
+    height: 600px;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+}
+
+.tile {
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.legend-item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
